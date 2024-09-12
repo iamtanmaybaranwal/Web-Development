@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Class Selectors*/
+        .first {
+            color: yellow;
+            background-color: red;
+        }
+
+        /*ID Selector*/
+        #green {
+            background-color: green;
+        }
+
+        /* Decendent Selector*/
+        div p {
+            color: red;
+            background-color: blue;
+        }
+
+        /* Child Selector*/
+        div>p {
+            background-color: brown;
+            color: whitesmoke;
+        }
+
+        /*Universal Selector*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Pseudo Selectors*/
+        a:visited{
+            color: maroon;
+        }
+        a:link{
+            color: green;
+        }
+        /*for bg color while clicking*/
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: blue-;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        Heyy this is the first div.
+        <p>
+            this is a para which is the child of div.
+        </p>
+    </div>
+
+    <div id="green">
+        Heyy this is second div.
+        <article>
+            <p>this is a para under div but not a child bcz of this fking article.</p>
+        </article>
+    </div>
+
+    <a target="_blank" href="https://www.google.com">Go to Google</a>
+    <a target="_blank" href="https://www.instagram.com">Go to instagram</a>
+</body>
+
+</html>

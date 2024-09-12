@@ -1,0 +1,1 @@
+/* To remove the horizontal bar, we need to add-- box-sizing:border-box */
