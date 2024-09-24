@@ -162,32 +162,7 @@ header .language {
     padding: 5px 0 15px;
 }
 
-/* Responsive Design */
 
-/* For large tablets and small desktops (max-width: 945px) */
-@media screen and (max-width: 945px) {
-    .body {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .third {
-        grid-template-columns: repeat(2, 300px);
-    }
-
-    .hero span {
-        font-size: 40px;
-    }
-
-    .middle {
-        font-size: 20px;
-    }
-
-    .flex {
-        margin-left: 0;
-        justify-content: center;
-    }
-}
 
 /* first footer */
 
@@ -300,6 +275,33 @@ header .language {
 .last{
     text-decoration: none;
     color: #00b6d1;
+}
+
+/* Responsive Design */
+
+/* For large tablets and small desktops (max-width: 945px) */
+@media screen and (max-width: 945px) {
+    .body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third {
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    .hero span {
+        font-size: 40px;
+    }
+
+    .middle {
+        font-size: 20px;
+    }
+
+    .flex {
+        margin-left: 0;
+        justify-content: center;
+    }
 }
 
 /* For small tablets (max-width: 768px) */
