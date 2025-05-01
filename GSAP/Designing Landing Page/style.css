@@ -10,6 +10,10 @@
     font-family: sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 html,body {
     height: 100%;
     width: 100%;
@@ -141,8 +145,11 @@ nav button {
 
 /* Section1bottom ends here -->  */
 
+/* section 2 services starts here -->  */
+
 .section2 .services {
-    padding: 140px 60px;
+    /* padding: 140px 60px; */
+    padding: 140px 0px 70px 60px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -163,3 +170,76 @@ nav button {
     font-weight: 500;
     font-size: 15px;
 }
+
+/* section 2 services ends here -->  */
+
+/* container starts here -->  */
+
+.container {
+    min-height: 86vh;
+    width: 100%;
+    padding: 0px 55px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.elem {
+    flex-shrink: 0;
+    border: 2px solid #000;
+    height: 280px;
+    width: 46%;
+    border-radius: 30px;
+    box-shadow: 0px 12px 0px #000;
+    padding: 50px 40px;
+    display: flex;
+}
+
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img {
+    height: 100%;
+    right: 0;
+}
+
+.elem-part1 h2 {
+    font-size: 30px;
+    background-color: #B9FF66;
+    margin-right: 36px;
+}
+.elem-part1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.elem-part1 i {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.black {
+    background-color: #000;
+}
+.black h2 {
+    background-color: #fff;
+}
+.black i {
+    background-color: #fff;
+    color: #000;
+}
+
+/* container ends here -->  */
